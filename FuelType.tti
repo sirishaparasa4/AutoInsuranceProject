@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<typelist
+  xmlns="http://guidewire.com/typelists"
+  name="FuelType"
+  desc="Type of Fuel">
+
+  <typecode
+    code="petrol"
+    name="Petrol"
+    desc="Petrol Vehicle"/>
+
+  <typecode
+    code="diesel"
+    name="Diesel"
+    desc="Diesel Vehicle"/>
+
+  <typecode
+    code="electric"
+    name="Electric"
+    desc="Electric Vehicle"/>
+
+  <typecode
+    code="hybrid"
+    name="Hybrid"
+    desc="Hybrid Vehicle"/>
+
+</typelist>

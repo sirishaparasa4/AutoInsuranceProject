@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../pcf.xsd">
+
+  <DetailScreen
+    id="VehicleDetail"
+    title="Vehicle Details">
+
+    <Screen>
+      <PanelSet>
+
+        <InputSet id="VehicleInfoSection">
+
+          <Input
+            label="Vehicle Type"
+            value="vehicle.VehicleType"
+            editable="true"/>
+
+          <Input
+            label="Make"
+            value="vehicle.Make"
+            editable="true"/>
+
+          <Input
+            label="Model"
+            value="vehicle.Model"
+            editable="true"/>
+
+          <Input
+            label="Manufacture Year"
+            value="vehicle.ManufactureYear"
+            editable="true"/>
+
+          <Input
+            label="Color"
+            value="vehicle.Color"
+            editable="true"/>
+
+          <Input
+            label="Fuel Type"
+            value="vehicle.FuelType"
+            editable="true"/>
+
+          <Input
+            label="Registration Number"
+            value="vehicle.RegistrationNumber"
+            editable="true"/>
+
+        </InputSet>
+
+      </PanelSet>
+    </Screen>
+
+  </DetailScreen>
+
+</PCF>

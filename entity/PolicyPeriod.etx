@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<entity-extension
+  xmlns="http://guidewire.com/datamodel"
+  entity="PolicyPeriod">
+
+  <column
+    name="CustomerCategory"
+    type="typekey"
+    typelist="CustomerCategory"
+    desc="Category of Customer"/>
+
+  <column
+    name="CustomerNotes"

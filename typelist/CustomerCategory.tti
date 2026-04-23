@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<typelist
+  xmlns="http://guidewire.com/typelists"
+  name="CustomerCategory"
+  desc="Category of Customer">
+
+  <typecode
+    code="individual"
+    name="Individual"
+    desc="Individual Customer"/>
+
+  <typecode
+    code="corporate"
+    name="Corporate"
+    desc="Corporate Customer"/>
+
+  <typecode
+    code="government"
+    name="Government"
+    desc="Government Customer"/>
+
+</typelist>

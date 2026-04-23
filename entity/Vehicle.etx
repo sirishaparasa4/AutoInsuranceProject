@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<entity-extension
+  xmlns="http://guidewire.com/datamodel"
+  entity="Vehicle">
+
+  <column
+    name="VehicleType"
+    type="typekey"
+    typelist="VehicleType"
+    desc="Type of Vehicle"/>
+
+  <column
+    name="Make"
+    type="varchar"
+    size="50"
+    desc="Vehicle Manufacturer"/>
+
+  <column
+    name="Model"
+    type="varchar"
+    size="50"
+    desc="Vehicle Model Name"/>
+
+  <column
+    name="ManufactureYear"
+    type="integer"
+    desc="Year of Manufacture"/>
+
+  <column
+    name="Color"
+    type="varchar"
+    size="30"
+    desc="Vehicle Color"/>
+
+  <column
+    name="FuelType"
+    type="typekey"
+    typelist="FuelType"
+    desc="Type of Fuel"/>
+
+  <column
+    name="RegistrationNumber"
+    type="varchar"
+    size="20"
+    desc="Vehicle Registration Number"/>
+
+</entity-extension>

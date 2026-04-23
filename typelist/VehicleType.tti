@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<typelist
+  xmlns="http://guidewire.com/typelists"
+  name="VehicleType"
+  desc="Type of Vehicle">
+
+  <typecode
+    code="sedan"
+    name="Sedan"
+    desc="Standard Sedan Car"/>
+
+  <typecode
+    code="suv"
+    name="SUV"
+    desc="Sport Utility Vehicle"/>
+
+  <typecode
+    code="truck"
+    name="Truck"
+    desc="Pickup Truck"/>
+
+  <typecode
+    code="motorcycle"
+    name="Motorcycle"
+    desc="Two Wheeler"/>
+
+</typelist>
